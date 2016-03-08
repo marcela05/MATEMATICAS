@@ -1,0 +1,45 @@
+<head>
+	<title>calculadora_marce</title>
+</head>
+
+<body>
+	<h1>¡CALCULADORA EN Meteor!</h1>
+
+	{{> hello}}
+</body>
+
+<template name="hello">
+	<form id="formulario">
+		<center>
+			<table>
+				<tr>
+					<td colspan="3"><input type="text" size="9" name="valores" id= "valores"></td>
+				</tr>
+				<tr>
+					<input type="button" name= "btn" value="7" class="btn"/>
+					<input type="button" name= "btn" value="8" class="btn"/>
+					<input type="button" name= "btn"  value="9" class="btn" />
+					<input type="button" value="/" class="btn"/>
+				</tr>
+				<tr>
+					<input type="button" value="4" class="btn"/>
+					<input type="button" value="5" class="btn"/>
+					<input type="button" value="6" class="btn"/>
+					<input type="button" value="*" class="btn"/>
+				</tr>
+				<tr>
+					<input type="button" value="1" class="btn"/>
+					<input type="button" value="2" class="btn"/>
+					<input type="button" value="3" class="btn"/>
+					<input type="button" value="+" class="btn"/>
+				</tr>
+				<tr>
+					<input type="button" value="0" class="btn"/>
+					<input type="button" value="-" class="btn"/>
+					<input type="button" value="=" class="btnigual"/>
+					<input type="button" value="C" class="btnbor"/>
+				</tr>
+			</table>
+		</center>	
+	</form>
+</template>
